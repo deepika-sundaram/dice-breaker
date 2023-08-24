@@ -1,0 +1,27 @@
+.App{
+text-align:center;
+ /* background: url('Screen Shot 2023-08-21 at 9.52.57 PM.png'); 
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: 40%; */
+ }
+ h1 {
+    background-color:#4c5490;
+    color: aliceblue;
+    text-shadow: 5px  whitesmoke;
+    font-family: sans-serif;
+    background-position: center;
+    height: 40px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.24),5px 5px 5px 5px rgba(0,0,0,0.19);
+    padding-top: 0.4rem;
+    
+
+    
+
+   
+
+ }

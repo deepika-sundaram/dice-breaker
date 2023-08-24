@@ -1,11 +1,27 @@
-# Summary
-Incorporating dice into icebreaker activities can infuse a sense of fun and unpredictability. Participants can roll the dice to engage in various interactive activities. "Roll and Share" involves answering unique questions based on the rolled number, fostering engaging conversations. "Dice Charades" turns rolling into a guessing game, as players act out categories tied to the dice numbers. The "Two Truths and a Lie Dice" adds a twist to the classic game by determining which statement participants share. "Dice Drawing Relay" challenges participants to sketch objects based on their dice roll. "Story Building" generates collaborative narratives using dice-determined story elements. "Partner Interviews" encourages pairs to ask dice-related questions for mutual sharing. "Emoji Interpretation" links emojis to dice numbers, prompting creative interpretations. Lastly, "Name Connection" assigns names or words to numbers, making introductions unique. These creative ideas add an element of excitement to icebreakers while fostering connections among participants.
+# React + TypeScript + Vite
 
-## Prerequiste
-- Node
-- npm
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## How to Setup
-- npm install
-- npm run dev
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+
+- Configure the top-level `parserOptions` property like this:
+
+```js
+   parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+   },
+```
+
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
